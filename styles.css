@@ -1,0 +1,109 @@
+body{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    margin-top: 20px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: beige;
+}
+
+.active {
+    background-color: lightblue;
+}
+
+.button1{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.student-table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.student-table thead tr {
+    background-color: lightsteelblue;
+    color: #ffffff;
+    text-align: left;
+}
+.student-table th,
+.student-table td {
+    padding: 12px 15px;
+}
+.student-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.student-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+.button {
+    background: beige;
+    font-family: sans-serif;
+    padding: 0.6em 1.3em;
+    font-weight: 900;
+    font-size: 12px;
+    border: 1px solid rosybrown;
+    border-radius: 0.4em;
+}
+
+.button:hover {
+    background-color: blanchedalmond;
+    transform: translate(-0.05em, -0.05em);
+}
+.line {
+    border: 3px solid dimgray;
+    border-radius: 5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
