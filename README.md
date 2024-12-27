@@ -1,6 +1,4 @@
-# FIT2104 Assignment 2 - Lab Pair 212
-
-## Name
+## Project Name
 Little Dreamer Music School Website
 
 ## Description
